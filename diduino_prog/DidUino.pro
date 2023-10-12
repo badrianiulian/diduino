@@ -34,11 +34,21 @@ FORMS += \
     mainwindow.ui
 
 TRANSLATIONS += \
-    DidUino_ru_RU.ts
+    DidUino_en_US.ts
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-DISTFILES +=
+DISTFILES += \
+    ico/burn.ico \
+    ico/check.ico \
+    ico/help.ico \
+    ico/ico.ico \
+    ico/offline.ico \
+    ico/online.ico \
+    ico/open.ico \
+    ico/options.ico \
+    ico/save.ico \
+    ico/scan.ico

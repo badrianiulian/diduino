@@ -1,33 +1,33 @@
-# Программатор дидuino
+# Diduino programmer
 
-![Плата Дидuino](/img/board.png "Дидuino")
+![Diduino board](/img/board.png "Diduino")
 
-Проект программатора микросхем ППЗУ: К155РЕ3, КР556РТ4, КР556РТ14, КР556РТ5 и их аналогов. Основан на основе следующих проектов:
-* [Проект программатора ProgRT](https://zx-pk.ru/threads/15617-programmator-ppzu-155re3-556rt4-i-drugikh.html "Ссыдка на форум ZX-PK")
-* [Проект программатора от walhi](https://github.com/walhi/arduino_eprom27_programmer "Ссыдка на github")
+Project of a programmer for EEPROM chips: K155RE3, KR556RT4, KR556RT14, KR556RT5 and their analogues. Based on the following projects:
+* [ProgRT programmer project](https://zx-pk.ru/threads/15617-programmator-ppzu-155re3-556rt4-i-drugikh.html "Link to the ZX-PK forum")
+* [Programmer project from walhi](https://github.com/walhi/arduino_eprom27_programmer "Github link")
 
-Принципиальная схема:
+Schematic diagram:
 
-![Принципиальная схема](/img/scheme.png "Принципиальная схема")
+![Schematic diagram](/img/scheme.png "Schematic diagram")
 
-Проект схемы и платы: <https://easyeda.com/naym1993/prog_did>
+Schematic and board project: <https://easyeda.com/naym1993/prog_did>
 
-Принцип работы регулятора на XL60009 рассматривался [в этом видео](https://youtu.be/bcgiW_VbnP0 "Ссыдка на youtube")
+The operating principle of the regulator on the XL60009 was discussed [in this video](https://youtu.be/bcgiW_VbnP0 "Link to YouTube")
 
-**В версии печатной платы 1.0 совершена ошибка в разводке платы!!** 
+**In PCB version 1.0 there was an error in the board layout!!**
 
-Необходимо поменять сток исток в силовом транзисторе.
+It is necessary to change the drain source in the power transistor.
 
-![Доработка платы версии 1.0](/img/fix_for_1.0.jpg "Доработка")
+![Refinement of board version 1.0](/img/fix_for_1.0.jpg "Refinement")
 
-Подробней рассматриваю этот вопрос в видео: <https://youtu.be/s_gQgh_qvWw>
+I discuss this issue in more detail in the video: <https://youtu.be/s_gQgh_qvWw>
 
-**В версии печатной платы 1.1 так же найден недочет!!! Спасибо PticDado!** 
+**A flaw was also found in version 1.1 of the printed circuit board!!! Thanks PticDado!**
 
-Резисторная сборка R18 не подключена к земле. Контакт просто в воздухе висит, надо кинуть перемычку до земли (она вокруг контакта).
-В проекте easyEDA печатная плата уже поправлена. 
+Resistor assembly R18 is not connected to ground. The contact is just hanging in the air, you need to throw the jumper to the ground (it is around the contact).
+In the easyEDA project, the printed circuit board has already been corrected.
 
-## Дидuino programmer
+## Diduino programmer
 
 Project of the programmer of ROM chips: K155RE3, KR556RT4, KR556RT14, KR556RT5 and their analogs. It is based on the following projects:
 * [ProgRT programmer project](https://zx-pk.ru/threads/15617-programmator-ppzu-155re3-556rt4-i-drugikh.html "Link to ZX-PK forum")

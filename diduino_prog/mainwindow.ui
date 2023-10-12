@@ -249,7 +249,7 @@
           <item>
            <widget class="QLabel" name="label_2">
             <property name="text">
-             <string>Версия приложения 0.1</string>
+             <string>Application version 0.1</string>
             </property>
            </widget>
           </item>
@@ -328,7 +328,7 @@
           <item>
            <widget class="QLabel" name="label_3">
             <property name="text">
-             <string>Колличество импульсов</string>
+             <string>The number of pulses</string>
             </property>
            </widget>
           </item>
@@ -360,7 +360,7 @@
           <item>
            <widget class="QLabel" name="label_4">
             <property name="text">
-             <string>Время импульса записи, мкс</string>
+             <string>Write pulse time, ms</string>
             </property>
            </widget>
           </item>
@@ -392,7 +392,7 @@
           <item>
            <widget class="QLabel" name="label_5">
             <property name="text">
-             <string>Заполнение %</string>
+             <string>Filling %</string>
             </property>
            </widget>
           </item>
@@ -424,7 +424,7 @@
           <item>
            <widget class="QLabel" name="label_6">
             <property name="text">
-             <string>Напряжение, В</string>
+             <string>Voltage, V</string>
             </property>
            </widget>
           </item>
@@ -469,7 +469,7 @@
           <item>
            <widget class="QCheckBox" name="checkBox">
             <property name="text">
-             <string>авто</string>
+             <string>auto</string>
             </property>
             <property name="checked">
              <bool>true</bool>
@@ -479,7 +479,7 @@
           <item>
            <widget class="QPushButton" name="pushButton">
             <property name="text">
-             <string>Отправить настройки</string>
+             <string>Send settings</string>
             </property>
            </widget>
           </item>
@@ -517,7 +517,7 @@
                <bool>false</bool>
               </property>
               <property name="text">
-               <string>Память микросхемы</string>
+               <string>Chip memory</string>
               </property>
              </widget>
             </item>
@@ -527,7 +527,7 @@
                <bool>false</bool>
               </property>
               <property name="text">
-               <string>Открытая прошивка</string>
+               <string>open firmware</string>
               </property>
               <property name="flat">
                <bool>false</bool>
