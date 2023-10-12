@@ -36,3 +36,5 @@ Project of the programmer of ROM chips: K155RE3, KR556RT4, KR556RT14, KR556RT5 a
 Circuit and board design: <https://easyeda.com/naym1993/prog_did>
 
 The principle of the XL60009 regulator was discussed [in this video](https://youtu.be/bcgiW_VbnP0 "Youtube link")
+
+Fixes are provided by Vali. I just compiled them ˆ_ˆ
