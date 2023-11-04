@@ -395,7 +395,7 @@ void write_byte(uint16_t addr, byte in){
 }
 
 float get_voltage (void) {
-  float vADC = (analogRead(voltageControl) / 1024.) * 4.95;  //// !ATTENTION! for internal Voltmeter calibration
+  float vADC = (analogRead(voltageControl) / 1024.) * 4.95;  //// !ATTENTION! for internal Voltmeter calibration - use Aref voltage (4.95)
   float current = vADC / rBottom;
   return (current * (rTop + rBottom));
 }
