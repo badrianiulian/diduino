@@ -37,4 +37,4 @@ Circuit and board design: <https://easyeda.com/naym1993/prog_did>
 
 The principle of the XL6009 regulator was discussed [in this video](https://youtu.be/bcgiW_VbnP0 "Youtube link")
 
-Fixes are provided by Vali. I just compiled them ˆ_ˆ
+Fixes are provided by Vali. I just compiled the PC GUI ˆ_ˆ
