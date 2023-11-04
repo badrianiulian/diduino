@@ -1,6 +1,6 @@
 //---Radionews---https://github.com/Radionews
 //---Walhi---https://github.com/walhi
-//---06.03.2021---
+//---04.12.2023---
 
 #define ST A3
 #define SH A2
