@@ -1,4 +1,4 @@
-# Diduino programmer - with English language
+# diduino programmer - with English language
 
 ![Diduino board](/img/board.png "Diduino")
 
